@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Сафари по Африке</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- иконка на вкладке -->
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <!-- SVG-sprite -->
+  <svg style="display: none;">
+    <symbol id="up-btn" viewBox="0 0 32 32">
+      <g>
+        <path
+          d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16-7.163-16-16-16-16 7.163-16 16zM29 16c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13 13 5.82 13 13z">
+        </path>
+        <path d="M22.086 20.914l2.829-2.829-8.914-8.914-8.914 8.914 2.828 2.828 6.086-6.086z"></path>
+      </g>
+    </symbol>
+  </svg>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/header/logo.svg" alt="logo">
+          </a>
+          <div class="header__phone">
+            <span>Заказ туров и бронирование:</span>
+            <a class="header__phone-number" href="tel:+48570625565">тел. (+48) 570-625-565</a>
+          </div>
+          <nav class="menu">
+
+            <button class="menu__btn">
+              <span></span>
+            </button>
+
+            <ul class="menu__list">
+              <li class="menu__item"><a class="menu__link" href="#book">Бронирование</a></li>
+              <li class="menu__item"><a class="menu__link" href="#trip">Экскурсии</a></li>
+              <li class="menu__item"><a class="menu__link" href="#tours">Туры</a></li>
+              <li class="menu__item"><a class="menu__link" href="#africa">Об Африке</a></li>
+              <li class="menu__item"><a class="menu__link" href="#aboutus">О нас</a></li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="header__title">
+          Сафари по Африке
+        </h1>
+        <div class="header__content">
+          <p class="header__discr">
+            Туры по самым экзотическим местам<br>
+            Поехали с нами за новыми впечатлениями!
+          </p>
+          <a class="header__btn" href="#book">Оставить заявку</a>
+          <div class="header__arrow">
+            <a href="#tours" class="header__arrow-link">
+              <img class="header__arrow-img" src="images/header/arrow-btn.svg" alt="arrow-btn">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+    <!-- scroll__to__top -->
+    <div class="scrolltotop show-btn show-btn-hide" id="scrolltotop">
+      <svg class="scrolltotop__icon">
+        <use xlink:href="#up-btn"></use>
+      </svg>
+    </div>
+
+    <div class="direction" id="trip">
+      <div class="container">
+        <div class="direction__inner">
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/1.jpg" alt="">
+            <p class="directions__text">Намибия</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/2.jpg" alt="">
+            <p class="directions__text">Танзания</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/3.jpg" alt="">
+            <p class="directions__text">Кения</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/4.jpg" alt="">
+            <p class="directions__text">Ботсвана</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/5.jpg" alt="">
+            <p class="directions__text">Кейптаун</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/6.jpg" alt="">
+            <p class="directions__text">Мадагаскар</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/7.jpg" alt="">
+            <p class="directions__text">Занзибар</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/8.jpg" alt="">
+            <p class="directions__text">ЮАР</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/9.jpg" alt="">
+            <p class="directions__text">Мозамбик</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/10.jpg" alt="">
+            <p class="directions__text">Замбия</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="images/directions/11.jpg" alt="">
+            <p class="directions__text">Конго</p>
+          </div>
+          <div class="direction__item">
+            <img class="direction__img" src="" alt="">
+            <p class="directions__text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="travel-info" id="aboutus">
+      <div class="container">
+        <h2 class="travel-info__title title">
+          Основные направления
+        </h2>
+        <div class="travel-info__list">
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/full.svg" alt="icon">
+            <p class="travel-info__text">Полная организация отдыха: групповые и индивидуальные туры.</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/transfer.svg" alt="icon">
+            <p class="travel-info__text">Организация трансфера из любой точки мира</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/otel.svg" alt="icon">
+            <p class="travel-info__text">Проживание в отелях по маршруту</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/auto.svg" alt="icon">
+            <p class="travel-info__text">Аренда автомобилей и любого вида транспорта</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/med.svg" alt="icon">
+            <p class="travel-info__text">Медицинская страховка</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/rusgid.svg" alt="icon">
+            <p class="travel-info__text">Сопровождение русскоговорящих гидов</p>
+          </div>
+          <div class="travel-info__item">
+            <img class="travel-info__img" src="images/aboutus/vip.svg" alt="icon">
+            <p class="travel-info__text">Организация VIP-туров</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular" id="tours">
+      <div class="container">
+        <h2 class="popular__title title">
+          Популярные предложения
+        </h2>
+        <div class="popular__list">
+          <a class="popular__link" href="#" style="background-image: url(images/tour/1_namibia.jpg);">
+            <H4 class="popular__link-title">ПУТЕШЕСТВИЕ ПО НАМИБИИ</H4>
+            <p class="popular__link-text">от 3000 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/2_kenia.jpg);">
+            <H4 class="popular__link-title">КЛАССИКА КЕНИИ</H4>
+            <p class="popular__link-text">от 3500 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/3_tanzania.jpg);">
+            <H4 class="popular__link-title">САМЫЕ ПОПУЛЯРНЫЕ САФАРИ ПАРКИ И ЗАПОВЕДНИКИ ТАНЗАНИИ</H4>
+            <p class="popular__country">Танзания</p>
+            <p class="popular__time">7 дней / 6 ночей</p>
+            <p class="popular__link-text">от 1700 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/4_botsvana.jpg);">
+            <H4 class="popular__link-title">ИССЛЕДОВАНИЕ БОТСВАНЫ</H4>
+            <p class="popular__link-text">от 2500 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/5_fivecountry.jpg);">
+            <H4 class="popular__link-title">ПУТЕШЕСТВИЕ ЧЕРЕЗ 5 СТРАН ЮЖНОЙ АФРИКИ</H4>
+            <p class="popular__link-text">от 5000 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/6_ninecountry.jpg);">
+            <H4 class="popular__link-title">ГРАНДИОЗНОЕ ПРИКЛЮЧЕНИЕ ПО 9 СТРАНАМ АФРИКИ</H4>
+            <p class="popular__country">ЮАР, Замбия, Намибия, Зимбабве, Ботсвана, Мозамбик, Танзания, Кения</p>
+            <p class="popular__time">24 дня / 23 ночи</p>
+            <p class="popular__link-text">от 6000 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/7_keyptaun.jpg);">
+            <H4 class="popular__link-title">ВЕЛИКОЛЕПНЫЙ КЕЙПТАУН</H4>
+            <p class="popular__link-text">от 2500 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/8_uar.jpg);">
+            <H4 class="popular__link-title">ПУТЕШЕСТВИЕ ПО ЮАР</H4>
+            <p class="popular__link-text">от 2500 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour/9_bigmigrac.jpg);">
+            <H4 class="popular__link-title">ВЕЛИКАЯ МИГРАЦИЯ В ТАНЗАНИИ И ОТДЫХ НА ЗАНЗИБАРЕ</H4>
+            <p class="popular__link-text">от 1700 $</p>
+          </a>
+          <a class="popular__link" href="#" style="background-image: url(images/tour//10_tovictoria.jpg);">
+            <H4 class="popular__link-title">ОТ КЕЙПТАУНА ДО ВОДОПАДА ВИКТОРИЯ</H4>
+            <p class="popular__link-text">от 2500 $</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="map" id="africa">
+      <div class="container">
+        <h2 class="map__title title">
+          Карта Африки
+        </h2>
+        <iframe class="map__iframe"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8466594.528460821!2d23.35770667363882!3d-13.090578820561946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2spl!4v1635282559866!5m2!1sru!2spl"
+          width="100%" height="610" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+     <section class="abouttour">
+      <div class="container">
+        <div class="abouttour__inner">
+          <div class="abouttour__content">
+            <h3 class="abouttour__title title">
+              О сафари турах
+            </h3>
+            <p class="abouttour__text">
+              Восточная и Южная Африка являются самыми популярными местами, где можно насладиться увлекательным
+              путешествием, под названием сафари. Именно здесь созданы все условия, чтобы туристы могли почувствовать
+              себя частичкой девственной природы Африки. Туры сафари в Африку характеризуются уникальными программами, в
+              рамках которых туристы перемещаются на комфортабельных, специализированных автомобилях или автобусах.
+            </p>
+            <a class="abouttour__link" href="#">Читать подробнее</a>
+          </div>
+          <div class="abouttour__popup">
+            <a href="https://vk.com/video_ext.php?oid=17011787&id=456239078&hash=e65674fca472ad9b&hd=3&autoplay=1"
+              class="abouttour__popup-link"><img class="popup__img" src="images/abouttour/popup.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="gallery">
+      <div class="container">
+        <div class="gallery__top">
+          <h2 class="gallery__title title">
+            Фотогалерея
+          </h2>
+          <a class="gallery__link" href="#">Перейти в раздел</a>
+        </div>
+        <div class="gallery__slider">
+          <div class="gallery__item">
+            <div class="gallery__item-inner">
+              <a class="gallery__item-link" href="images/gallery/1.jpg"><img class="gallery__item-img"
+                  src="images/gallery/1.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/2.jpg"><img class="gallery__item-img"
+                  src="images/gallery/2.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/3.jpg"><img class="gallery__item-img"
+                  src="images/gallery/3.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/4.jpg"><img class="gallery__item-img"
+                  src="images/gallery/4.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/5.jpg"><img class="gallery__item-img"
+                  src="images/gallery/5.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/6.jpg"><img class="gallery__item-img"
+                  src="images/gallery/6.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="gallery__item">
+            <div class="gallery__item-inner">
+              <a class="gallery__item-link" href="images/gallery/7.jpg"><img class="gallery__item-img"
+                  src="images/gallery/7.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/8.jpg"><img class="gallery__item-img"
+                  src="images/gallery/8.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/9.jpg"><img class="gallery__item-img"
+                  src="images/gallery/9.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/10.jpg"><img class="gallery__item-img"
+                  src="images/gallery/10.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/11.jpg"><img class="gallery__item-img"
+                  src="images/gallery/11.jpg" alt=""></a>
+              <a class="gallery__item-link" href="images/gallery/12.jpg"><img class="gallery__item-img"
+                  src="images/gallery/12.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="viptour">
+      <div class="container">
+        <div class="viptour__inner">
+          <h2 class="viptour__title title">
+            Сафари тур премиум класса
+          </h2>
+          <div class="viptour__content">
+            <p class="viptour__info">
+              Сафари тур ? это уникальное путешествие в мир дикой природы, знакомство с многогранной Африкой, наблюдение за дикими животными в их привычной среде обитания.</p><br>
+              <p class="viptour__info"><strong>САФАРИ ТУРИСТИК</strong> специализируется на элитном туризме и представляет своим клиентам уникальные программы сафари туров.Среди представленных вариантов можно найти нечто неповторимое, по вашему вкусу.</p><br>
+              <p class="viptour__info">Если вы желаете отправиться в самое незабываемое путешествие в вашей жизни, побывать в уникальных местах и увидеть то, что удается лицезреть немногим ? тогда сафари туры созданы для вас. Сафари туры выбирают туристы, которые предпочитают динамичный, яркий, насыщенный эмоциями и впечатлениями отдых.   
+<br>Программы сафари туров по Африке рассчитаны на определенную группу людей, которые под покровительством куратора, осуществляют увлекательное путешествие по заранее спланированному маршруту. Мы ориентированы на клиентов VIP класса, поэтому все предложения, представленные в нашей коллекции, отличаются высшим классом, детально продуманной программой, первоклассным сервисом и индивидуальным подходом к каждому участнику путешествия. У нас на сайте вы можете прочитать все подробности о программах уже сформированных туров по сафари.
+            </p>
+          </div>
+          <div class="viptour__result">
+            <ul class="viptour__result-list">
+              <li class="viptour__result-item">
+                <p class="viptour__resultat">16</p>
+                <p class="viptour__text">лет успешной<br>
+                  работы</p>
+              </li>
+              <li class="viptour__result-item">
+                <p class="viptour__resultat">50</p>
+                <p class="viptour__text">гостиниц без<br>
+                  посредников</p>
+              </li>
+              <li class="viptour__result-item">
+                <p class="viptour__resultat">25+</p>
+                <p class="viptour__text">собственных<br>
+                  туров</p>
+              </li>
+              <li class="viptour__result-item">
+                <p class="viptour__resultat">1 220 000</p>
+                <p class="viptour__text">кв. км – площадь наших<br>
+                  путешествий</p>
+              </li>
+              <li class="viptour__result-item">
+                <p class="viptour__resultat">5 000</p>
+                <p class="viptour__text">довольных<br> туристов</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="book">
+      <div class="container">
+        <h2 class="booking__title title">
+          Забронируйте отдых в Африке
+        </h2>
+        <form class="booking__form">
+          <input class="booking__input" type="text" placeholder="Ваше имя">
+          <input class="booking__input" type="tel" placeholder="Телефон" >
+          <input class="booking__input" type="email" placeholder="E-mail">
+          <textarea class="booking__area" placeholder="Коментарии"></textarea>
+          <button class="booking__btn" type="submit">Отправить заявку</button>
+          <label class="booking__label">
+            <input class="booking__checkbox" type="checkbox">
+            Согласие на обработку персональных данных
+          </label>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/header/logo.svg" alt="logo">
+        </a>
+      </div>
+      <div class="footer__inner">
+        <div class="footer__info footer__block">
+          <p class="footer__inner-title">Турагентство «Сафари Туристик»</p>
+          <p class="footer__inner-text">© 2021. Все права защищены</p>
+          <a class="politic" href="#">Политика конфиденциальности</a>
+        </div>
+        <div class="footer__adress footer__block">
+          <p class="footer__inner-title">Адрес:</p>
+          <a class="footer__adress-link" href="https://goo.gl/maps/CUKxB8KDDTGshxL8A" target="_blank">Orzechowa 45 <br> 50-540 Wrocław</a>
+        </div>
+        <div class="footer__contacts footer__block">
+          <p class="footer__inner-title">Заказ туров и бронирование:</p>
+          <a class="footer__contacts-phone" href="tel:+48570625565">тел.: +48 570-625-565 </a>
+          <a class="footer__contacts-mail" href="mailto:saulyan@ukr.net">e-mail: saulyan@ukr.net</a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer> 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
